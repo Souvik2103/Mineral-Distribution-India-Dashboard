@@ -1,30 +1,37 @@
-India Mineral Distribution & Reserves Dashboard
-📌 Project Overview
-This Power BI project provides a comprehensive visualization of India’s mineral wealth. It analyzes the geographic distribution, total resources, and reserve volumes of key minerals such as Silver ore, Gold, Limestone, and Rock Phosphate.
+# ⛏️ Mineral Distribution & Resource Analysis Dashboard
 
-The dashboard serves as a strategic tool to identify resource-rich zones and compare mineral diversity across different Indian states.
+![Dashboard Preview](Dashboard.jpg)
 
-📊 Key Features
-Geospatial Analysis: An interactive Mineral Map to visualize deposit clusters across the Indian subcontinent.
+## 📖 Project Overview
+This project involves a comprehensive **Power BI Dashboard** designed to visualize and analyze the distribution of mineral resources across India. The report provides insights into mineral availability by state, total and remaining resource estimations, and major mining companies operating in the sector.
 
-Resource Breakdown: A doughnut chart displaying the Sum of Total Resources by state (e.g., Gujarat leading at 35.75%).
+This tool is useful for understanding the geoeconomic landscape of India's mining sector, helping to visualize where key resources (like Bauxite, Iron Ore, Coal, etc.) are concentrated.
 
-Reserve Comparisons: Bar charts detailing reserves by mineral type and by state, highlighting Rajasthan’s dominance in the sector.
+## 📊 Key Features & Insights
 
-Diversity Metrics: Analysis of the variety of minerals found in each state, identifying regions with the highest mineral complexity.
+* **State-wise Mineral Count:** A breakdown of mineral types per state, highlighting **Rajasthan (25)** and **Andhra Pradesh (20)** as leading states in mineral variety.
+* **Resource Quantification:**
+    * **Total Resources:** Detailed bar charts showing **Odisha (92K)** and **Jharkhand (89K)** as the states with the highest volume of total resources.
+    * **Remaining Resources:** Analysis of remaining reserves to assist in future planning and sustainability studies.
+* **Corporate Analysis:** A deep dive into company-wise reserves, featuring major industry players like **UltraTech Cement, BCCL, MCL, and Hindustan Zinc Ltd.**
+* **Geospatial Visualization:** An interactive map plotting mineral deposits across the Indian subcontinent for location-based analysis.
+* **Interactive Slicers:** Users can filter data by specific mineral types (e.g., Bauxite, Calcite, China Clay) to view specific trends.
 
-💡 Key Insights
-Rajasthan holds the highest mineral diversity with 31 distinct mineral types and 183M in reserves.
+## 🛠️ Tools & Technologies Used
+* **Microsoft Power BI:** For data modeling, DAX calculations, and visualization.
+* **Data Source:** (Mention your source here, e.g., Indian Bureau of Mines, Ministry of Mines, or Dummy Data).
+* **Data Transformation:** Power Query was used for cleaning and normalization of state and company data.
 
-Silver Ore constitutes the largest reserve by volume at 301M.
+## 📂 File Structure
+* `Mineral Distribution dashboard.pbix`: The source Power BI file containing the data model and report layout.
+* `Dashboard.jpg`: Static preview of the final report.
 
-Gujarat and Goa combined account for over 60% of the total resources analyzed in this dataset.
+## 🚀 How to Use
+1.  Download the `.pbix` file from this repository.
+2.  Open the file using **Microsoft Power BI Desktop**.
+3.  Interact with the slicers on the right panel to filter by specific minerals.
+4.  Hover over charts to see tooltips with specific reserve numbers.
 
-🛠️ Tech Stack
-Tool: Power BI Desktop
-
-Data Processing: Power Query (ETL)
-
-Analytics: DAX (Data Analysis Expressions) for calculated measures
-
-Visualization: Interactive Maps, Doughnut Charts, and Clustered Bar Charts  
+## 👤 Author
+**Souvik Das**
+*Mineral and Metallurgical Engineering | IIT (ISM) Dhanbad*
